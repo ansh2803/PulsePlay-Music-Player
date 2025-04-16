@@ -1,0 +1,6 @@
+<svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 25 L26 19 V31 Z" fill="#FF2E63"/>
+  <polyline points="35,25 40,15 45,35 50,25 55,28 60,22 65,25" 
+            fill="none" stroke="#08D9D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70" y="30" fill="black" font-size="18" font-family="Arial, sans-serif">PulsePlay</text>
+</svg>

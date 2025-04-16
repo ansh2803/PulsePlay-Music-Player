@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>PulsePlay - Web Player: Music for everyone</title>
+   
+</head>
+
+<body>
+    <div class="container flex bg-black"> 
+<div class="left">
+    <div class="home bg-grey rounded m-1 p1">
+     <div class="logo" style="font-size: 35px; font-family: Arial, sans-serif;"><img class="invert" src="logo.svg" alt=""></div>
+        <ul>
+            <li><img class="invert" src="home.svg" alt="home" style="width: 14px;" >Home</li>
+            <li><img class="invert" src="Search.svg" alt="search" style="width: 14px;">Search</li>
+        </ul>
+    </div>
+    <div class="library bg-grey rounded m-1 p1">
+        <div class="heading">
+            <img class="invert" src="your_library.svg" alt="">
+            <h3>Your library</h3>
+          </div>
+          <div class="songlists">
+            <ul>
+               <li>
+                <img class = "invert" src="music.svg" alt="" srcset="">
+                <div class="info">
+                    <div>Song Name</div>
+                    <div>Song Artist</div>
+                </div>
+                <div class="playnow">
+                    <span>Play Now</span>
+                    <img class ="invert" src="play.svg" alt="" srcset="">
+                </div>
+                
+               </li> 
+            </ul>
+        </div>
+          <div class="footer">
+            <div class="links row1">
+                <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety &amp; Privacy Center</a>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+            </div>
+            <div class="links row2">
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+            </div>
+            <div class="cookie-link">
+                <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener">Cookies</a>
+            </div>
+            <button class="language-btn">
+                <span class="icon">
+                    <svg viewBox="0 0 16 16" width="16" height="16">
+                        <path d="M8.152 16H8a8 8 0 1 1 .152 0zm-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296zM4.877 7.25c.062-1.771.34-3.386.773-4.624.099-.284.208-.554.329-.806a6.507 6.507 0 0 0-4.436 5.43h3.334zm-3.334 1.5a6.507 6.507 0 0 0 4.436 5.43 7.974 7.974 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624H1.543zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129H6.378zm5.048 0c-.061 1.771-.339 3.386-.772 4.624-.082.235-.171.46-.268.674a6.506 6.506 0 0 0 4.071-5.298h-3.03zm3.031-1.5a6.507 6.507 0 0 0-4.071-5.298c.097.214.186.44.268.674.433 1.238.711 2.853.772 4.624h3.031z"></path>
+                    </svg>
+                </span>
+                English
+            </button>
+        </div>
+        
+    
+</div>
+</div>
+<div class="right  bg-grey rounded m-1 p1">
+    <div class="header">
+        <div class="nav">
+            <div class="hamburgericon">
+                <img class="invert" src="hamburger.svg" alt="" srcset="">
+                <img class="invert" src="left.svg" alt="">
+                <img class="invert" src="right.svg" alt="">
+
+            </div>
+           
+    
+        </div>
+        <div class="buttons">
+            <button class="sign-up">sign up</button>
+            <button class="login">Log in</button>
+        </div>
+    </div>
+    <div class="spotify_playlist">
+        <h1>PulsePlay Playlists</h1>
+        <div class="cardContainer">
+            <div class="card" data-folder="ncs">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+                        <!-- Larger Green Circular Background -->
+                        <circle cx="16" cy="16" r="14" fill="green"/>
+                        <!-- Smaller Black Play Button with Padding -->
+                        <path d="M21 16.846C20.6465 18.189 18.9761 19.138 15.6351 21.0361C12.4054 22.8709 10.7906 23.7884 9.48923 23.4196C8.9512 23.2671 8.46099 22.9776 8.06564 22.5787C7.1094 21.6139 7.1094 19.7426 7.1094 16C7.1094 12.2574 7.1094 10.3861 8.06564 9.42132C8.46099 9.02245 8.9512 8.73288 9.48923 8.58042C10.7906 8.21165 12.4054 9.12907 15.6351 10.96393C18.9761 12.86197 20.6465 13.811 21 15.154C21.1459 15.7084 21.1459 16.2916 21 16.846Z" 
+                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="round" transform="scale(0.8) translate(4,4)"/>
+                    </svg>
+                    
+                </div>
+                <img src="songs/ncs/jhol.jpeg" alt="">
+                <h2>jhol</h2>
+                <p>Song. Mannu, Annural Khalid</p>
+
+            </div>
+
+            <div class="card" data-folder="cs">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+                        <!-- Larger Green Circular Background -->
+                        <circle cx="16" cy="16" r="14" fill="green"/>
+                        <!-- Smaller Black Play Button with Padding -->
+                        <path d="M21 16.846C20.6465 18.189 18.9761 19.138 15.6351 21.0361C12.4054 22.8709 10.7906 23.7884 9.48923 23.4196C8.9512 23.2671 8.46099 22.9776 8.06564 22.5787C7.1094 21.6139 7.1094 19.7426 7.1094 16C7.1094 12.2574 7.1094 10.3861 8.06564 9.42132C8.46099 9.02245 8.9512 8.73288 9.48923 8.58042C10.7906 8.21165 12.4054 9.12907 15.6351 10.96393C18.9761 12.86197 20.6465 13.811 21 15.154C21.1459 15.7084 21.1459 16.2916 21 16.846Z" 
+                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="round" transform="scale(0.8) translate(4,4)"/>
+                    </svg>
+                    
+                </div>
+                <img src="songs/cs/seedhemaut.jpg" alt="">
+                <h2>Namastute</h2>
+                <p>Song. Seedhe Maut</p>
+
+            </div>
+
+            <div class="card" data-folder="karanaujla">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+                        <!-- Larger Green Circular Background -->
+                        <circle cx="16" cy="16" r="14" fill="green"/>
+                        <!-- Smaller Black Play Button with Padding -->
+                        <path d="M21 16.846C20.6465 18.189 18.9761 19.138 15.6351 21.0361C12.4054 22.8709 10.7906 23.7884 9.48923 23.4196C8.9512 23.2671 8.46099 22.9776 8.06564 22.5787C7.1094 21.6139 7.1094 19.7426 7.1094 16C7.1094 12.2574 7.1094 10.3861 8.06564 9.42132C8.46099 9.02245 8.9512 8.73288 9.48923 8.58042C10.7906 8.21165 12.4054 9.12907 15.6351 10.96393C18.9761 12.86197 20.6465 13.811 21 15.154C21.1459 15.7084 21.1459 16.2916 21 16.846Z" 
+                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="round" transform="scale(0.8) translate(4,4)"/>
+                    </svg>
+                    
+                </div>
+                <img src="songs/karanaujla/karan.jpeg" alt="">
+                <h2>Wavy</h2>
+                <p>Song. karan Aujla</p>
+
+            </div>
+
+            <div class="card" data-folder="arjit_singh">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+                        <!-- Larger Green Circular Background -->
+                        <circle cx="16" cy="16" r="14" fill="green"/>
+                        <!-- Smaller Black Play Button with Padding -->
+                        <path d="M21 16.846C20.6465 18.189 18.9761 19.138 15.6351 21.0361C12.4054 22.8709 10.7906 23.7884 9.48923 23.4196C8.9512 23.2671 8.46099 22.9776 8.06564 22.5787C7.1094 21.6139 7.1094 19.7426 7.1094 16C7.1094 12.2574 7.1094 10.3861 8.06564 9.42132C8.46099 9.02245 8.9512 8.73288 9.48923 8.58042C10.7906 8.21165 12.4054 9.12907 15.6351 10.96393C18.9761 12.86197 20.6465 13.811 21 15.154C21.1459 15.7084 21.1459 16.2916 21 16.846Z" 
+                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="round" transform="scale(0.8) translate(4,4)"/>
+                    </svg>
+                    
+                </div>
+                <img src="songs/arjit_singh/arjit.jpeg" alt="">
+                <h2>Love Forever</h2>
+                <p>by Arijit Singh</p>
+            </div>
+
+            <div class="card">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+                        <!-- Larger Green Circular Background -->
+                        <circle cx="16" cy="16" r="14" fill="green"/>
+                        <!-- Smaller Black Play Button with Padding -->
+                        <path d="M21 16.846C20.6465 18.189 18.9761 19.138 15.6351 21.0361C12.4054 22.8709 10.7906 23.7884 9.48923 23.4196C8.9512 23.2671 8.46099 22.9776 8.06564 22.5787C7.1094 21.6139 7.1094 19.7426 7.1094 16C7.1094 12.2574 7.1094 10.3861 8.06564 9.42132C8.46099 9.02245 8.9512 8.73288 9.48923 8.58042C10.7906 8.21165 12.4054 9.12907 15.6351 10.96393C18.9761 12.86197 20.6465 13.811 21 15.154C21.1459 15.7084 21.1459 16.2916 21 16.846Z" 
+                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="round" transform="scale(0.8) translate(4,4)"/>
+                    </svg>
+                    
+                </div>
+                <img src="https://i.scdn.co/image/ab67706f00000002204335eb7d241ef0dbf5c5ad" alt="">
+                <h2>Viral Hits</h2>
+                <p>Viral,trending and taking off.</p>
+            </div>  
+
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar">
+                <div class="playbuttons">
+                    
+                    <div class="songinfo"></div>
+                    <img id="previous" src="prev.svg" alt="" srcset="">
+                    <img id="play-button" src="pause.svg" alt="Pause Button" srcset="" id="play-button">
+                    <img id="pause" src="play.svg" alt="" srcset="pause-button">
+                    <img id="next" src="forward.svg" alt="" srcset="">
+                    <audio src="songs/Bismillah.mp3"></audio>
+                </div>
+            <div class="timevol">
+                <div class="songtime"></div>
+            </div>
+            <div class="volume">
+                <img src="volume.svg" alt="" srcset="">
+                <div class="range">
+                    <input type="range" name="volume" id="volume">
+                </div>
+            </div>
+        </div>
+        </div>
+          
+            
+            
+            
+        </div>
+    </div>
+</div>
+    </div>
+    <script src="script5.js"></script>
+</body>
+</html>
